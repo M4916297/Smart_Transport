@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainPage</class>
+ <widget class="QWidget" name="MainPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>557</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainPage</string>
+  </property>
+  <widget class="QStackedWidget" name="swMain">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>371</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="pageMap"/>
+   <widget class="QWidget" name="pageCar">
+    <widget class="QPushButton" name="btnStop">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>车辆停止</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCarStart">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>车辆启动</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCarUnlock">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>130</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>车辆解锁</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCarAralmLightON">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>250</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开双闪</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCarLock">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>130</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>车辆锁定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCarLightON">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>210</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开大灯</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCarLightOFF">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>210</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>关大灯</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>90</y>
+       <width>72</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>密钥:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnCarAralmLightOFF">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>250</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>关双闪</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditCar0Key">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>90</y>
+       <width>113</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>123456</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="pageCrossing"/>
+   <widget class="QWidget" name="pageConfig"/>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>95</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="btnAllInfo">
+      <property name="text">
+       <string>综合信息</string>
+      </property>
+      <property name="icon">
+       <iconset resource="req.qrc">
+        <normaloff>:/images/home.png</normaloff>:/images/home.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnCarInfo">
+      <property name="text">
+       <string>车辆定位</string>
+      </property>
+      <property name="icon">
+       <iconset resource="req.qrc">
+        <normaloff>:/images/posistion.png</normaloff>:/images/posistion.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnCrossingInfo">
+      <property name="text">
+       <string>路口监控</string>
+      </property>
+      <property name="icon">
+       <iconset resource="req.qrc">
+        <normaloff>:/images/video.png</normaloff>:/images/video.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnRoadInfo">
+      <property name="text">
+       <string>流量监控</string>
+      </property>
+      <property name="icon">
+       <iconset resource="req.qrc">
+        <normaloff>:/images/traffic_flow.png</normaloff>:/images/traffic_flow.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnCarSet">
+      <property name="text">
+       <string>车辆设置</string>
+      </property>
+      <property name="icon">
+       <iconset resource="req.qrc">
+        <normaloff>:/images/setting.png</normaloff>:/images/setting.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnCrossingSet">
+      <property name="text">
+       <string>路口设置</string>
+      </property>
+      <property name="icon">
+       <iconset resource="req.qrc">
+        <normaloff>:/images/setting.png</normaloff>:/images/setting.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnSystemSet">
+      <property name="text">
+       <string>系统设置</string>
+      </property>
+      <property name="icon">
+       <iconset resource="req.qrc">
+        <normaloff>:/images/setting.png</normaloff>:/images/setting.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="req.qrc"/>
+ </resources>
+ <connections/>
+</ui>

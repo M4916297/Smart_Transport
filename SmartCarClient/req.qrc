@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/briup.png</file>
+        <file>images/car.png</file>
+        <file>images/close_normal.png</file>
+        <file>images/close_press.png</file>
+        <file>images/closeLamp.png</file>
+        <file>images/connect.png</file>
+        <file>images/control.png</file>
+        <file>images/dingwei.ico</file>
+        <file>images/dlgk.ico</file>
+        <file>images/expand_normal.png</file>
+        <file>images/expand_selected.png</file>
+        <file>images/fullscreen.png</file>
+        <file>images/home.png</file>
+        <file>images/information.png</file>
+        <file>images/its.ico</file>
+        <file>images/lljk.ico</file>
+        <file>images/maxsize.png</file>
+        <file>images/minisize.png</file>
+        <file>images/navigation.png</file>
+        <file>images/openLamp.png</file>
+        <file>images/posistion.png</file>
+        <file>images/road.png</file>
+        <file>images/RoadMap.jpg</file>
+        <file>images/RoadMap.png</file>
+        <file>images/RoadMap2.jpg</file>
+        <file>images/RoadSig.jpg</file>
+        <file>images/setting.png</file>
+        <file>images/traffic_flow.png</file>
+        <file>images/unexpand_normal.png</file>
+        <file>images/unexpand_selected.png</file>
+        <file>images/video.png</file>
+    </qresource>
+</RCC>
